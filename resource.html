@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girl on the Path of Change</title>
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <!--FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <a href="index.html">
+          <div class="logo">
+            <img src="img/Logo GPC.png" alt="logo GPC" />
+          </div>
+          <div id="website-title">
+            <h1>Girls on the Path of Change</h1>
+          </div>
+        </a>
+      </div>
+      <nav class="header-bottom">
+        <div id="navbar">
+          <ul>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="events.html">Events & News</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="involved.html">Get involved</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="faq.html">Faq</a></li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="cta-button">
+          <ul>
+            <li><a href="about.html">Learn more</a></li>
+            <li><a href="involved.html">Join us</a></li>
+            <li><a href="">Donate</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="resource-section">
+        <h2 class="title1">Resources</h2>
+        <div id="resource-content">
+          <div class="square">
+            <img src="img/education.jpg" alt="educational resources" />
+            <p>Access a wealth of resources, including guides, webinars, and more, designed to support our students</p>
+            <div class="cta-button">
+              <a href="">Educational Resources</a>
+            </div>
+          </div>
+          <div class="square">
+            <img src="img/petition.jpg" alt="petition" />
+            <p>Join our advocacy efforts by supporting petitions like our call to reopen schools for girls</p>
+            <div class="cta-button">
+              <a href="">Petitions & Advocacy</a>
+            </div>
+          </div>
+          <div class="square">
+            <img src="img/success.png" alt="success stories" />
+            <p>Read the inspiring stories of girls who have transformed their lives through GPC's programs</p>
+            <div class="cta-button">
+              <a href="">Success Stories</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="social">
+        <h6>Follow us</h6>
+        <a href="https://www.facebook.com/profile.php?id=100091436479960" target="_blank"><img
+            src="img/logo Facebook.png" alt="facebook" /></a>
+        <a href="https://www.instagram.com/girls_on_" target="_blank"><img src="img/icona instagram.png"
+            alt="instagram" /></a>
+        <a href="https://x.com/girlsinpchange?s=21" target="_blank"><img src="img/icona twitter.png"
+            alt="twitter" /></a>
+        <a href="https://www.linkedin.com/company/girls-on-the-path-of-change/" target="_blank"><img
+            src="img/icona linkedin.png" alt="linkedin" /></a>
+      </div>
+      <div id="footer-content">
+        <p>Read our privacy policy to understand how we handle your data</p>
+        <p>Review the terms and conditions for using our website and participating in our programs.</p>
+        <h3>Copyright 2024</h3>
+      </div>
+    </footer>
+  </div>
+  <script>
+    let hamburger = document.querySelector('.hamburger');
+    hamburger.addEventListener("click", function () {
+      document.body.classList.toggle('open');
+    });
+  </script>
+</body>
+
+</html>
