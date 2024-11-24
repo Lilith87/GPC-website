@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girl on the Path of Change</title>
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <!--FONT-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <a href="index.html">
+          <div class="logo">
+            <img src="img/Logo GPC.png" alt="logo GPC" />
+          </div>
+          <div id="website-title">
+            <h1>Girls on the Path of Change</h1>
+          </div>
+        </a>
+      </div>
+      <nav class="header-bottom">
+        <div id="navbar">
+          <ul>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="events.html">Events & News</a></li>
+            <li><a href="resource.html">Resources</a></li>
+            <li><a href="volunteer.html">Volunteer with us</a></li>
+            <li><a href="partnership.html">Become a partner</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="faq.html">Faq</a></li>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="cta-button">
+          <ul>
+            <li><a href="about.html">Learn more</a></li>
+            <li><a href="involved.html">Join us</a></li>
+            <li><a href="">Donate</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main id="main-content">
+      <div id="faq-banner"></div>
+      <div id="faq-content">
+        <h2 class="title1">Faq</h2>
+        <h3>Find answers to frequently asked questions about GPC, our programs, and how you can get involved</h3>
+        <div id="faq-question">
+          <ul>
+            <li id="faq1">Who we are <img src="img/freccia.png" alt="freccia" /></li>
+            <div class="faq_square" id="faq_square1">
+              <p>We are an organization...</p>
+            </div>
+            <li id="faq2"> Our Programs <img src="img/freccia.png" alt="freccia" /></li>
+            <div class="faq_square" id="faq_square2">
+              <p>Our programs are...</p>
+            </div>
+            <li id="faq3">Your Support/Get Involved <img src="img/freccia.png" alt="freccia" /></li>
+            <div class="faq_square" id="faq_square3">
+              <p>Your support is...</p>
+            </div>
+            <li id="faq4">Join Us/Volunteer <img src="img/freccia.png" alt="freccia" /></li>
+            <div class="faq_square" id="faq_square4">
+              <p>Join us...</p>
+            </div>
+            <li id="faq5">Donate <img src="img/freccia.png" alt="freccia" /></li>
+            <div class="faq_square" id="faq_square5">
+              <p>Donate...</p>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="social">
+        <h3>Follow us</h3>
+        <a href="https://www.facebook.com/profile.php?id=100091436479960" target="_blank"><img
+            src="img/logo Facebook.png" alt="facebook" /></a>
+        <a href="https://www.instagram.com/girls_on_" target="_blank"><img src="img/icona instagram.png"
+            alt="instagram" /></a>
+        <a href="https://x.com/girlsinpchange?s=21" target="_blank"><img src="img/icona twitter.png"
+            alt="twitter" /></a>
+        <a href="https://www.linkedin.com/company/girls-on-the-path-of-change/" target="_blank"><img
+            src="img/icona linkedin.png" alt="linkedin" /></a>
+      </div>
+      <div id="footer-content">
+        <p>Read our privacy policy to understand how we handle your data</p>
+        <p>Review the terms and conditions for using our website and participating in our programs.</p>
+        <h3>Copyright 2024</h3>
+      </div>
+    </footer>
+  </div>
+  <script>
+    let hamburger = document.querySelector('.hamburger');
+    hamburger.addEventListener("click", function () {
+      document.body.classList.toggle('open');
+    });
+
+    let faq1 = document.querySelector('#faq1');
+    faq1.addEventListener("click", function () {
+      document.body.classList.toggle('show1');
+    });
+
+    let faq2 = document.querySelector('#faq2');
+    faq2.addEventListener("click", function () {
+      document.body.classList.toggle('show2');
+    });
+
+    let faq3 = document.querySelector('#faq3');
+    faq3.addEventListener("click", function () {
+      document.body.classList.toggle('show3');
+    });
+
+    let faq4 = document.querySelector('#faq4');
+    faq4.addEventListener("click", function () {
+      document.body.classList.toggle('show4');
+    });
+
+    let faq5 = document.querySelector('#faq5');
+    faq5.addEventListener("click", function () {
+      document.body.classList.toggle('show5');
+    });
+  </script>
+</body>
+
+</html>
